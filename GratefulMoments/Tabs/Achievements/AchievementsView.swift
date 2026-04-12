@@ -19,6 +19,7 @@ struct AchievementsView: View {
             }
             .navigationTitle("Achievements")
         }
+        .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
     }
     
     private var contentStack: some View {
