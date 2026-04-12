@@ -23,6 +23,7 @@ struct Hexagon<Content: View>: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: layout.size - borderWidth, height: layout.size - borderWidth)
+                .fontWeight(.ultraLight)
         }
         .background {
             Image(systemName: "hexagon")
@@ -30,6 +31,7 @@ struct Hexagon<Content: View>: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: layout.size, height: layout.size)
                 .foregroundColor(borderColor)
+                .fontWeight(.ultraLight)
         }
         .frame(width: layout.size, height: layout.size)
         .overlay(alignment: .topTrailing) {

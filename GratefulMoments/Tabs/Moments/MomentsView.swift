@@ -12,8 +12,15 @@ struct MomentsView: View {
         
         NavigationStack {
             ScrollView {
-                pathItems
-                    .frame(maxWidth: .infinity)
+                LazyVStack(spacing: 8, pinnedViews: .sectionHeaders) {
+                    Section {
+                        pathItems
+                            .frame(maxWidth: .infinity)
+                    } header: {
+                        streakHeader
+                    }
+                }
+                
             }
             .overlay {
                 if moments.isEmpty {
@@ -62,6 +69,21 @@ struct MomentsView: View {
             }
         }
     }
+    
+    @ViewBuilder private var streakHeader: some View {
+        let streak = StreakCalculator().calculateStreak(for: moments)
+        if streak > 0 {
+            HStack {
+                Text(verbatim: "\(streak)")
+                Text(Image(systemName: "flame.fill"))
+                    .foregroundStyle(.ember)
+                Spacer()
+            }
+            .font(.subheadline)
+            .padding()
+        }
+    }
+    
 }
 
 #Preview {
