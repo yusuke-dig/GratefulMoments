@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		813D1CD72F8B96C10017F711 /* GratefulMoments.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = GratefulMoments.xctestplan; sourceTree = "<group>"; };
 		81F79E062F7FF43B0011475B /* GratefulMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratefulMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F79E132F7FF43D0011475B /* GratefulMomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratefulMomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F79E1D2F7FF43D0011475B /* GratefulMomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratefulMomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +76,7 @@
 		81F79DFD2F7FF43B0011475B = {
 			isa = PBXGroup;
 			children = (
+				813D1CD72F8B96C10017F711 /* GratefulMoments.xctestplan */,
 				81F79E082F7FF43B0011475B /* GratefulMoments */,
 				81F79E162F7FF43D0011475B /* GratefulMomentsTests */,
 				81F79E202F7FF43D0011475B /* GratefulMomentsUITests */,

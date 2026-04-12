@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "F435B1BD-CC25-42EE-9A4C-9A3B8EBB6251",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:GratefulMoments.xcodeproj",
+      "identifier" : "81F79E052F7FF43B0011475B",
+      "name" : "GratefulMoments"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:GratefulMoments.xcodeproj",
+        "identifier" : "81F79E122F7FF43D0011475B",
+        "name" : "GratefulMomentsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
